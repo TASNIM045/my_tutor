@@ -4,7 +4,12 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Roboto", sans-serif;
 }
 
@@ -52,7 +57,7 @@ h1,h2,h3,h4,h5,h6 {
     color: transparent;
     border: none;
     outline: none;
-    background: #ccc;   
+    background: #ccc;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
@@ -65,4 +70,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .slick-dots li button:before {
     display: none;
+}
+
+.slick-track {
+    margin-bottom: 20px;
 }
